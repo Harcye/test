@@ -14,7 +14,7 @@ u8 = encoding.UTF8
 
 local update_state = false
 local script_vers = 2  -- Текущая версия скрипта
-local script_vers_text = "1.00"  -- Версия, которую нужно обновить
+local script_vers_text = "1.05"  -- Версия, которую нужно обновить
 local update_url = "https://raw.githubusercontent.com/Harcye/test/main/update.ini"  -- URL для файла с информацией о версии
 local update_path = getWorkingDirectory() .. "/update.ini"
 local script_url = "https://raw.githubusercontent.com/Harcye/test/main/autoupdate.lua"  -- URL для скачивания новой версии скрипта
